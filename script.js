@@ -26,3 +26,17 @@ const projects = [
 
 const testimonialList = document.getElementById("testimonial-list");
 const projectsList = document.querySelector("#projects-list");
+
+
+Object.values(testimonials).forEach((testimonial) => {
+  const card = document.createElement("article");
+
+  card.innerHTML = `
+    <p>"${testimonial.quote}"</p>
+    <h3>${testimonial.name}</h3>
+    <p>${testimonial.role}</p>
+  `;
+
+  testimonialsList.appendChild(card);
+});
+
