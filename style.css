@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap");
+
+:root {
+  --dark: #18202d;
+  --text: #344054;
+  --light-text: #667085;
+  --accent: #d85b3f;
+  --background: #fffdf9;
+  --soft-background: #f5f0e8;
+  --white: #ffffff;
+  --border: #e4ddd2;
+}
+
