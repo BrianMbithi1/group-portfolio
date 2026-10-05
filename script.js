@@ -40,7 +40,7 @@ Object.values(testimonials).forEach((testimonial) => {
   testimonialsList.appendChild(card);
 });
 
-// Loop through the projects array and add each project card to the page.
+
 projects.forEach((project) => {
   const card = document.createElement("article");
 
@@ -52,3 +52,4 @@ projects.forEach((project) => {
 
   projectsList.appendChild(card);
 });
+
