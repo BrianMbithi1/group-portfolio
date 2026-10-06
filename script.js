@@ -25,8 +25,7 @@ const projects = [
 ];
 
 const testimonialList = document.getElementById("testimonial-list");
-const projectsList = document.querySelector("#projects-list");
-
+const projectsList = document.getElementById("projects-list");
 
 Object.values(testimonials).forEach((testimonial) => {
   const card = document.createElement("article");
@@ -37,9 +36,8 @@ Object.values(testimonials).forEach((testimonial) => {
     <p>${testimonial.role}</p>
   `;
 
-  testimonialsList.appendChild(card);
+  testimonialList.appendChild(card);
 });
-
 
 projects.forEach((project) => {
   const card = document.createElement("article");
@@ -52,4 +50,3 @@ projects.forEach((project) => {
 
   projectsList.appendChild(card);
 });
-
