@@ -1,7 +1,7 @@
 const testimonials = {
   testimonial1: {
-    quote: "Alex was great to work with and delivered a clean website.",
-    name: "Alex Johnson",
+    quote: "Brian was great to work with and delivered a clean website.",
+    name: "John Doe",
     role: "Project Manager"
   },
   testimonial2: {
